@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED2A5BF29F9EC300055C80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5BE29F9EC300055C80F /* AppDelegate.swift */; };
+		1ED2A5C129F9EC300055C80F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C029F9EC300055C80F /* SceneDelegate.swift */; };
+		1ED2A5C329F9EC300055C80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C229F9EC300055C80F /* ViewController.swift */; };
+		1ED2A5C829F9EC310055C80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C729F9EC310055C80F /* Assets.xcassets */; };
+		1ED2A5CB29F9EC310055C80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C929F9EC310055C80F /* LaunchScreen.storyboard */; };
+		1ED2A5D629F9EC310055C80F /* KelvinFokTipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5D529F9EC310055C80F /* KelvinFokTipCalculatorTests.swift */; };
+		1ED2A5E029F9EC320055C80F /* KelvinFokTipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5DF29F9EC320055C80F /* KelvinFokTipCalculatorUITests.swift */; };
+		1ED2A5E229F9EC320055C80F /* KelvinFokTipCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5E129F9EC320055C80F /* KelvinFokTipCalculatorUITestsLaunchTests.swift */; };
+		1ED2A5F029F9ECCB0055C80F /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED2A5EF29F9ECCB0055C80F /* CombineCocoa */; };
+		1ED2A5F329F9ECE10055C80F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED2A5F229F9ECE10055C80F /* SnapKit */; };
+		1ED2A5F629F9ED060055C80F /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED2A5F529F9ED060055C80F /* CombineCocoa */; };
+		1ED2A5F929F9ED610055C80F /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED2A5F829F9ED610055C80F /* SnapshotTesting */; };
+		1ED2A5FB29F9ED790055C80F /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1ED2A5FA29F9ED790055C80F /* CombineCocoa */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED2A5D229F9EC310055C80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ED2A5B329F9EC300055C80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED2A5BA29F9EC300055C80F;
+			remoteInfo = KelvinFokTipCalculator;
+		};
+		1ED2A5DC29F9EC320055C80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ED2A5B329F9EC300055C80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED2A5BA29F9EC300055C80F;
+			remoteInfo = KelvinFokTipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ED2A5BB29F9EC300055C80F /* KelvinFokTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelvinFokTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED2A5BE29F9EC300055C80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ED2A5C029F9EC300055C80F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ED2A5C229F9EC300055C80F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ED2A5C729F9EC310055C80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED2A5CA29F9EC310055C80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ED2A5CC29F9EC310055C80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED2A5D129F9EC310055C80F /* KelvinFokTipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelvinFokTipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED2A5D529F9EC310055C80F /* KelvinFokTipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinFokTipCalculatorTests.swift; sourceTree = "<group>"; };
+		1ED2A5DB29F9EC320055C80F /* KelvinFokTipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelvinFokTipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED2A5DF29F9EC320055C80F /* KelvinFokTipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinFokTipCalculatorUITests.swift; sourceTree = "<group>"; };
+		1ED2A5E129F9EC320055C80F /* KelvinFokTipCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinFokTipCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED2A5B829F9EC300055C80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5F029F9ECCB0055C80F /* CombineCocoa in Frameworks */,
+				1ED2A5F329F9ECE10055C80F /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5CE29F9EC310055C80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5F629F9ED060055C80F /* CombineCocoa in Frameworks */,
+				1ED2A5F929F9ED610055C80F /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5D829F9EC320055C80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5FB29F9ED790055C80F /* CombineCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED2A5B229F9EC300055C80F = {
+			isa = PBXGroup;
+			children = (
+				1ED2A5BD29F9EC300055C80F /* KelvinFokTipCalculator */,
+				1ED2A5D429F9EC310055C80F /* KelvinFokTipCalculatorTests */,
+				1ED2A5DE29F9EC320055C80F /* KelvinFokTipCalculatorUITests */,
+				1ED2A5BC29F9EC300055C80F /* Products */,
+				1ED2A5F429F9ED060055C80F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED2A5BC29F9EC300055C80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2A5BB29F9EC300055C80F /* KelvinFokTipCalculator.app */,
+				1ED2A5D129F9EC310055C80F /* KelvinFokTipCalculatorTests.xctest */,
+				1ED2A5DB29F9EC320055C80F /* KelvinFokTipCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED2A5BD29F9EC300055C80F /* KelvinFokTipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2A5BE29F9EC300055C80F /* AppDelegate.swift */,
+				1ED2A5C029F9EC300055C80F /* SceneDelegate.swift */,
+				1ED2A5C229F9EC300055C80F /* ViewController.swift */,
+				1ED2A5C729F9EC310055C80F /* Assets.xcassets */,
+				1ED2A5C929F9EC310055C80F /* LaunchScreen.storyboard */,
+				1ED2A5CC29F9EC310055C80F /* Info.plist */,
+			);
+			path = KelvinFokTipCalculator;
+			sourceTree = "<group>";
+		};
+		1ED2A5D429F9EC310055C80F /* KelvinFokTipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2A5D529F9EC310055C80F /* KelvinFokTipCalculatorTests.swift */,
+			);
+			path = KelvinFokTipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		1ED2A5DE29F9EC320055C80F /* KelvinFokTipCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2A5DF29F9EC320055C80F /* KelvinFokTipCalculatorUITests.swift */,
+				1ED2A5E129F9EC320055C80F /* KelvinFokTipCalculatorUITestsLaunchTests.swift */,
+			);
+			path = KelvinFokTipCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		1ED2A5F429F9ED060055C80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED2A5BA29F9EC300055C80F /* KelvinFokTipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED2A5E529F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculator" */;
+			buildPhases = (
+				1ED2A5B729F9EC300055C80F /* Sources */,
+				1ED2A5B829F9EC300055C80F /* Frameworks */,
+				1ED2A5B929F9EC300055C80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KelvinFokTipCalculator;
+			packageProductDependencies = (
+				1ED2A5EF29F9ECCB0055C80F /* CombineCocoa */,
+				1ED2A5F229F9ECE10055C80F /* SnapKit */,
+			);
+			productName = KelvinFokTipCalculator;
+			productReference = 1ED2A5BB29F9EC300055C80F /* KelvinFokTipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ED2A5D029F9EC310055C80F /* KelvinFokTipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED2A5E829F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculatorTests" */;
+			buildPhases = (
+				1ED2A5CD29F9EC310055C80F /* Sources */,
+				1ED2A5CE29F9EC310055C80F /* Frameworks */,
+				1ED2A5CF29F9EC310055C80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED2A5D329F9EC310055C80F /* PBXTargetDependency */,
+			);
+			name = KelvinFokTipCalculatorTests;
+			packageProductDependencies = (
+				1ED2A5F529F9ED060055C80F /* CombineCocoa */,
+				1ED2A5F829F9ED610055C80F /* SnapshotTesting */,
+			);
+			productName = KelvinFokTipCalculatorTests;
+			productReference = 1ED2A5D129F9EC310055C80F /* KelvinFokTipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ED2A5DA29F9EC320055C80F /* KelvinFokTipCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED2A5EB29F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculatorUITests" */;
+			buildPhases = (
+				1ED2A5D729F9EC320055C80F /* Sources */,
+				1ED2A5D829F9EC320055C80F /* Frameworks */,
+				1ED2A5D929F9EC320055C80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED2A5DD29F9EC320055C80F /* PBXTargetDependency */,
+			);
+			name = KelvinFokTipCalculatorUITests;
+			packageProductDependencies = (
+				1ED2A5FA29F9ED790055C80F /* CombineCocoa */,
+			);
+			productName = KelvinFokTipCalculatorUITests;
+			productReference = 1ED2A5DB29F9EC320055C80F /* KelvinFokTipCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED2A5B329F9EC300055C80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1ED2A5BA29F9EC300055C80F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1ED2A5D029F9EC310055C80F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1ED2A5BA29F9EC300055C80F;
+					};
+					1ED2A5DA29F9EC320055C80F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1ED2A5BA29F9EC300055C80F;
+					};
+				};
+			};
+			buildConfigurationList = 1ED2A5B629F9EC300055C80F /* Build configuration list for PBXProject "KelvinFokTipCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED2A5B229F9EC300055C80F;
+			packageReferences = (
+				1ED2A5EE29F9ECCB0055C80F /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				1ED2A5F129F9ECE10055C80F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1ED2A5F729F9ED610055C80F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
+			productRefGroup = 1ED2A5BC29F9EC300055C80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED2A5BA29F9EC300055C80F /* KelvinFokTipCalculator */,
+				1ED2A5D029F9EC310055C80F /* KelvinFokTipCalculatorTests */,
+				1ED2A5DA29F9EC320055C80F /* KelvinFokTipCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED2A5B929F9EC300055C80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5CB29F9EC310055C80F /* LaunchScreen.storyboard in Resources */,
+				1ED2A5C829F9EC310055C80F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5CF29F9EC310055C80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5D929F9EC320055C80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED2A5B729F9EC300055C80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5C329F9EC300055C80F /* ViewController.swift in Sources */,
+				1ED2A5BF29F9EC300055C80F /* AppDelegate.swift in Sources */,
+				1ED2A5C129F9EC300055C80F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5CD29F9EC310055C80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5D629F9EC310055C80F /* KelvinFokTipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED2A5D729F9EC320055C80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2A5E229F9EC320055C80F /* KelvinFokTipCalculatorUITestsLaunchTests.swift in Sources */,
+				1ED2A5E029F9EC320055C80F /* KelvinFokTipCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ED2A5D329F9EC310055C80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED2A5BA29F9EC300055C80F /* KelvinFokTipCalculator */;
+			targetProxy = 1ED2A5D229F9EC310055C80F /* PBXContainerItemProxy */;
+		};
+		1ED2A5DD29F9EC320055C80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED2A5BA29F9EC300055C80F /* KelvinFokTipCalculator */;
+			targetProxy = 1ED2A5DC29F9EC320055C80F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ED2A5C929F9EC310055C80F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED2A5CA29F9EC310055C80F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED2A5E329F9EC320055C80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ED2A5E429F9EC320055C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED2A5E629F9EC320055C80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KelvinFokTipCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ED2A5E729F9EC320055C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KelvinFokTipCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1ED2A5E929F9EC320055C80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelvinFokTipCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelvinFokTipCalculator";
+			};
+			name = Debug;
+		};
+		1ED2A5EA29F9EC320055C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelvinFokTipCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelvinFokTipCalculator";
+			};
+			name = Release;
+		};
+		1ED2A5EC29F9EC320055C80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelvinFokTipCalculator;
+			};
+			name = Debug;
+		};
+		1ED2A5ED29F9EC320055C80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FTFKXF8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeongminkim.KelvinFokTipCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KelvinFokTipCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED2A5B629F9EC300055C80F /* Build configuration list for PBXProject "KelvinFokTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2A5E329F9EC320055C80F /* Debug */,
+				1ED2A5E429F9EC320055C80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED2A5E529F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2A5E629F9EC320055C80F /* Debug */,
+				1ED2A5E729F9EC320055C80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED2A5E829F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2A5E929F9EC320055C80F /* Debug */,
+				1ED2A5EA29F9EC320055C80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED2A5EB29F9EC320055C80F /* Build configuration list for PBXNativeTarget "KelvinFokTipCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2A5EC29F9EC320055C80F /* Debug */,
+				1ED2A5ED29F9EC320055C80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1ED2A5EE29F9ECCB0055C80F /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		1ED2A5F129F9ECE10055C80F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		1ED2A5F729F9ED610055C80F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1ED2A5EF29F9ECCB0055C80F /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED2A5EE29F9ECCB0055C80F /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		1ED2A5F229F9ECE10055C80F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED2A5F129F9ECE10055C80F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1ED2A5F529F9ED060055C80F /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED2A5EE29F9ECCB0055C80F /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		1ED2A5F829F9ED610055C80F /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED2A5F729F9ED610055C80F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		1ED2A5FA29F9ED790055C80F /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1ED2A5EE29F9ECCB0055C80F /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1ED2A5B329F9EC300055C80F /* Project object */;
+}
