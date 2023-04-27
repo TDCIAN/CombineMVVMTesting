@@ -19,7 +19,7 @@ class CalculatorVM {
     
     struct Output {
         let updateViewPublisher: AnyPublisher<Result, Never>
-        let resultCalculatorPublisher: AnyPublisher<Void, Never>
+        let resetCalculatorPublisher: AnyPublisher<Void, Never>
     }
     
     private var cancellables = Set<AnyCancellable>()
@@ -48,7 +48,7 @@ class CalculatorVM {
             return Just(result)
         }.eraseToAnyPublisher()        
         
-        let resultCalculatorPublisher = input
+        let resetCalculatorPublisher = input
             .logoViewTapPublisher
             .handleEvents(receiveOutput: { [unowned self] in
                 self.audioPlayerService.playSound()
@@ -58,7 +58,7 @@ class CalculatorVM {
         
         return Output(
             updateViewPublisher: updateViewPublisher,
-            resultCalculatorPublisher: resultCalculatorPublisher
+            resetCalculatorPublisher: resetCalculatorPublisher
         )
     }
     

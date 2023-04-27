@@ -81,7 +81,7 @@ class CalculatorVC: UIViewController {
             resultView.configure(result: result)
         }.store(in: &cancellables)
         
-        output.resultCalculatorPublisher.sink { _ in
+        output.resetCalculatorPublisher.sink { _ in
             print("reset the form please")
         }.store(in: &cancellables)
 
