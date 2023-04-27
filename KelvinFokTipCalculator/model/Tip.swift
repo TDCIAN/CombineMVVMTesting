@@ -25,7 +25,7 @@ enum Tip {
         case .twentyPercent:
             return "20%"
         case .custom(value: let value):
-            return String(value) + "%"
+            return String(value)
         }
     }
 }
