@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E69D59D29FB614B0095C5FA /* KelvinFokTipCalculatorSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E69D59C29FB614B0095C5FA /* KelvinFokTipCalculatorSnapshotTest.swift */; };
 		1ED2A5BF29F9EC300055C80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5BE29F9EC300055C80F /* AppDelegate.swift */; };
 		1ED2A5C129F9EC300055C80F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C029F9EC300055C80F /* SceneDelegate.swift */; };
 		1ED2A5C329F9EC300055C80F /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2A5C229F9EC300055C80F /* CalculatorVC.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E69D59C29FB614B0095C5FA /* KelvinFokTipCalculatorSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelvinFokTipCalculatorSnapshotTest.swift; sourceTree = "<group>"; };
 		1ED2A5BB29F9EC300055C80F /* KelvinFokTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelvinFokTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED2A5BE29F9EC300055C80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ED2A5C029F9EC300055C80F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				1ED2A5D529F9EC310055C80F /* KelvinFokTipCalculatorTests.swift */,
+				1E69D59C29FB614B0095C5FA /* KelvinFokTipCalculatorSnapshotTest.swift */,
 			);
 			path = KelvinFokTipCalculatorTests;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E69D59D29FB614B0095C5FA /* KelvinFokTipCalculatorSnapshotTest.swift in Sources */,
 				1ED2A5D629F9EC310055C80F /* KelvinFokTipCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
